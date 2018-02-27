@@ -18,11 +18,6 @@ $ chmod +x ./run.sh # para poder executá-lo
 $ sudo dockerd & # se o daemon do docker não está rodando
 $ sudo ./run.sh
 ```
-Para, no final, deletar a imagem do docker junto:
-
-```bash
-$ sudo ./run.sh clean
-```
 
 Pronto! POR PADRÃO, o PSQL estará rodando na **porta 5000.**
 
